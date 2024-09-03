@@ -1,0 +1,19 @@
+---
+// Import Tailwind CSS
+import 'tailwindcss/tailwind.css';
+---
+
+<div class="hero bg-cover bg-center text-white p-10 text-center relative neon-border h-96" style="background-image: url('neonpunk_barn.png');">
+  <div class="absolute inset-0 bg-opacity-50"></div>
+  <div class="z-10 relative">
+    <h1 class="text-4xl mb-4">Welcome to Our Site!</h1>
+    <p>This is a hero component created with Astro and Tailwind CSS.</p>
+  </div>
+</div>
+
+<style>
+  .neon-border {
+    border: 2px solid #00D1FF; /* Neon green border */
+    box-shadow: 0 0 8px #00D1FF, 0 0 15px #00D1FF, 0 0 20px #00D1FF; /* Glowing effect */
+  }
+</style>
